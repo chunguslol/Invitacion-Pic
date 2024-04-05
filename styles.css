@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3252; /* Morado oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #7a6b8d; /* Morado claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra más oscura */
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #bfa0d7; /* Morado más claro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+button:hover {
+    background-color: #7a6b8d; /* Morado claro al pasar el cursor */
+}
